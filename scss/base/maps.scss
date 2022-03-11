@@ -1,0 +1,27 @@
+/*standard parte 1*/
+
+$standard :(
+    color-standard:white,
+    bg-standard:bisque,
+    padding-standard:20px,
+    border-bottom-standard: 5px solid gold, 
+    text-aling-standard:center,
+    font-size-standard:30px,
+);
+
+/*premium parte 2*/
+
+
+$premium:(
+    bg-premium:  rgb(73, 71, 71),
+    color-premium:white,
+    margin-premium:30px auto,
+    padding-premium:50px ,
+    font-size-premium:80px,
+    font-family-premium:'Segoe UI',
+    text-aling-premium: center,
+    border-bottom-premium:5px solid black,
+);
+
+
+

@@ -1,0 +1,44 @@
+
+
+
+@mixin colores($fondo,$colorl){
+background-color:($fondo);
+color: ($colorl);
+}
+
+@mixin alinear ($alineado){
+    text-align:($alineado) ;
+    
+}
+@mixin centrar ($centrar) 
+{
+    display: flex;
+    justify-content: ($centrar);
+
+    
+}
+
+
+@mixin rellenos ($relleno,$margen){
+    padding: ($relleno);
+    margin: ($margen);
+}
+
+@mixin ancho ($ancho,$alto){
+    
+
+    width: ($ancho);
+    height: ($alto);
+   
+    }
+
+
+
+    
+
+
+
+
+
+
+

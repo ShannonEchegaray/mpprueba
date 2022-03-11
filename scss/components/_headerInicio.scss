@@ -1,0 +1,77 @@
+
+
+.h1Inicio{
+    text-align: center;
+    font-size: 40px;
+  background-color: rgb(16, 169, 240);
+    color: blue;
+    padding: 20px;
+}
+
+
+.logoInicio{
+    background-color: rgb(16, 169, 240);
+}
+ 
+
+.enlace{
+   
+    animation-name: enlace;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+}
+@keyframes enlace {
+from{
+    transform: rotateZ(0);
+}    
+to{
+    transform: rotateZ(360deg);
+}
+
+}
+
+
+
+/*Contactos*/
+.headerContacto{
+    background-color: rgb(226, 226, 17);
+    width: 100%;
+    
+    
+}
+.h1Contactos{
+    text-align: center;
+    padding: 20px;
+    color: yellow;
+    background-color:rgba(73, 71, 71, 0.664); 
+    width: 100%;
+}
+
+/*Nuestro Locales*/
+
+.headerNuestros{
+    @include colores(green,lightgrey);
+}
+.h1Nuestros{
+    text-align: center;
+}
+.logoNuestro{
+  background-color: green;
+}
+
+
+
+/*Productos*/
+.headerProductos{
+     @include alinear(center)
+}
+
+.h1Productos{
+    font-size: 50px;
+}
+
+
+
+
+
