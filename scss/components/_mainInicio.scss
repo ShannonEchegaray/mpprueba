@@ -27,8 +27,11 @@
 
 .mainContactos{
     background-color: gray;
-  
-   width: 100%;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
    }
   
    
@@ -41,28 +44,36 @@
         align-items: center;
        
    }
-   .divContactos{
-    width: 100%;
-       padding: 20px;
-       .h2Contactos{
-        font-size: 40px;
-        color: yellow;
-        text-align: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
-        
-    }
+   .divGcontactos{
+       margin-top: 50px;
+       display: flex;
+       flex-flow: row nowrap;
    }
+
+   .divContactos{
+        width: 50%;
+        padding: 20px;
+        padding-top: 40px;
+
+        .h2Contactos{
+            font-size: 40px;
+            color: yellow;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+        }
+    }
    
   
    .pContactos{
-       width: 100%;
+    text-align: center;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-        }
+    }
    
    .formContactos{
-       width: 100%;
+       width: 50%;
+       padding: 20px;
        display: flex;
        justify-content: center;
        align-items: center;
@@ -70,8 +81,7 @@
            text-align: center;
            align-items: center;
        } 
-   
-   }
+    }
    
      @media screen and (min-width:72px ) and ( max-width: 720px){   
    .mainContactos{
@@ -83,9 +93,21 @@
        
    
        }
+    .divGcontactos{
+        flex-flow: column;
+        align-items: center;
+    }    
         
-         
+    .formContactos{
+        width: 90%;
      }
+
+     .divContactos{
+        width: 90%;
+        padding: 20px;
+    }
+
+    }
    
    
 
